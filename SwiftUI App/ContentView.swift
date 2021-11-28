@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView {
+            
+            GeometryReader { geo in
+        
         Text("Hello, world!")
             .padding()
+            .navigationTitle("Test Swift App")
+            
+                
+                
+                
+            }
+            .background(Color.red)
+            .edgesIgnoringSafeArea(.bottom)
+            }
+    
     }
 }
 

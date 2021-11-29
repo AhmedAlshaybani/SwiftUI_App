@@ -18,6 +18,18 @@ let canMakePurchase = productPrice
        isPossible = $0 > $1
     }
 
-print(isPossible)
+//print(isPossible)
+
+let array = [23, 56, 989]
+
+let publisher = array.publisher
+let subscriber = publisher
+    .filter({$0 == 56})
+    .sink { (completion) in
+        print(completion)
+    } receiveValue: { (inty) in
+        inty
+    }
+
     
     

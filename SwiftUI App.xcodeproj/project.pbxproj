@@ -12,6 +12,7 @@
 		761687BA2753ABC600B0F928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761687B92753ABC600B0F928 /* Assets.xcassets */; };
 		761687BD2753ABC600B0F928 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761687BC2753ABC600B0F928 /* Preview Assets.xcassets */; };
 		761687C62753B18E00B0F928 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761687C52753B18E00B0F928 /* Model.swift */; };
+		7624D49F2754F5AF001AB4CA /* CombineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7624D49E2754F5AF001AB4CA /* CombineTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		761687BC2753ABC600B0F928 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		761687BE2753ABC600B0F928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		761687C52753B18E00B0F928 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7624D49E2754F5AF001AB4CA /* CombineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				761687B52753ABC300B0F928 /* SwiftUI_AppApp.swift */,
 				761687B72753ABC300B0F928 /* ContentView.swift */,
 				761687C52753B18E00B0F928 /* Model.swift */,
+				7624D49E2754F5AF001AB4CA /* CombineTest.swift */,
 				761687B92753ABC600B0F928 /* Assets.xcassets */,
 				761687BE2753ABC600B0F928 /* Info.plist */,
 				761687BB2753ABC600B0F928 /* Preview Content */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				761687C62753B18E00B0F928 /* Model.swift in Sources */,
+				7624D49F2754F5AF001AB4CA /* CombineTest.swift in Sources */,
 				761687B82753ABC300B0F928 /* ContentView.swift in Sources */,
 				761687B62753ABC300B0F928 /* SwiftUI_AppApp.swift in Sources */,
 			);

@@ -22,14 +22,16 @@ let canMakePurchase = productPrice
 
 let array = [23, 56, 989]
 
-let publisher = array.publisher
-let subscriber = publisher
+let subscriber = array.publisher
     .filter({$0 == 56})
     .sink { (completion) in
         print(completion)
     } receiveValue: { (inty) in
-        inty
+        print(inty)
     }
 
+func cancelSub() {
     
+    subscriber.cancel()
+}
     
